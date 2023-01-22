@@ -581,7 +581,7 @@ section {
 
 .why-us .content {
   padding: 30px;
-  background: #ff5821;
+  /* background: #ff5821; */
   border-radius: 4px;
   color: #fff;
 }
@@ -600,7 +600,7 @@ section {
   display: inline-block;
   background: rgba(255, 255, 255, 0.2);
   padding: 6px 30px 8px 30px;
-  color: #fff;
+  color: rgb(20, 19, 19);
   border-radius: 50px;
   transition: all ease-in-out 0.4s;
 }
@@ -710,7 +710,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about-img.jpg") center center no-repeat;
+  background: url("../img/mop.jpeg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -1267,8 +1267,20 @@ section {
 }
 
 .team .member .member-img {
-  position: relative;
+  position: absolute;
   overflow: hidden;
+}
+
+.img {
+  /* float: left; */
+  width:  244px;
+  height: 326px;
+  background-size: cover;
+}
+
+.logo {
+  /* background: url("../img/momlogo.jpeg") center center no-repeat; */
+  background: url("../img/momlogo.jpeg") center center no-repeat;
 }
 
 .team .member .social {
